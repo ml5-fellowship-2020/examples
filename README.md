@@ -1,13 +1,12 @@
 # ml5 creative example website
 
+link: https://ml5-fellowship-2020.github.io/examples/
+
 ## How to add/update examples
+update the `/data/list.json` file
 
 ## How to publish a new version of the site
-
-
-
-
-
+`npm run deploy`
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
