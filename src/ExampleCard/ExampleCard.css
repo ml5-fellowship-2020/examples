@@ -1,0 +1,18 @@
+@import "~antd/dist/antd.css";
+
+.Action-text {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.Play-icon {
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.Description {
+  height: 70px;
+  overflow: hidden;
+  white-space: wrap;
+  text-overflow: ellipsis;
+  color: gray;
+}

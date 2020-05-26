@@ -1,0 +1,218 @@
+[
+  {
+    "name": "FaceAPI Basic",
+    "model": "FaceAPI",
+    "category": "image",
+    "description": "Switch the eyes / other parts",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/j5lMW-XS",
+    "image": "coco-ssd-advanced.png"
+  },
+  {
+    "name": "FaceAPI Advanced",
+    "model": "FaceAPI",
+    "category": "image",
+    "description": "Collage of eyes noses and faces as a blend",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/3dDj1e28Z",
+    "image": "word2vec-advanced.png"
+  },
+  {
+    "name": "FeatureExtractor Classification Basic",
+    "model": "FeatureExtractor",
+    "category": "sound",
+    "description": "2 classes with sound output",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/ryLlIOJpX",
+    "image": "coco-ssd-advanced.png"
+  },
+  {
+    "name": "FeatureExtractor Classification Advanced",
+    "model": "FeatureExtractor",
+    "category": "video",
+    "description": "Trainable Camera",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/BynhuHsqX",
+    "image": ""
+  },
+  {
+    "name": "FeatureExtractor Regression Basic",
+    "model": "FeatureExtractor",
+    "category": "sound",
+    "description": "Playback rate sound",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/HyEDToYnQ",
+    "image": "word2vec-advanced.png"
+  },
+  {
+    "name": "FeatureExtractor Regression Advanced",
+    "model": "FeatureExtractor",
+    "category": "image",
+    "description": "Control animation (mr Bean)",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/4K_YGuMik",
+    "image": "coco-ssd-advanced.png"
+  },
+  {
+    "name": "ImageClassification (MobileNet) Basic",
+    "model": "ImageClassifier",
+    "category": "sound",
+    "description": "Speak sketches out loud",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/Sk8M6mqh7",
+    "image": ""
+  },
+  {
+    "name": "ImageClassification (MobileNet) Advanced",
+    "model": "ImageClassifier",
+    "category": "sound",
+    "description": "Random Rhymes with Rita.js",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/Sanvu3ddC",
+    "image": "coco-ssd-advanced.png"
+  },
+  {
+    "name": "KNN Classification Basic",
+    "model": "KNNClassifier",
+    "category": "video",
+    "description": "finger tracking + knn",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/vyiGyVon9",
+    "image": "word2vec-advanced.png"
+  },
+  {
+    "name": "KNN Classification Advanced",
+    "model": "KNNClassifier",
+    "category": "video",
+    "description": "poseNet Touching face",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/iIDeY-mKi",
+    "image": ""
+  },
+  {
+    "name": "Neural Network Basic",
+    "model": "NeuralNetwork",
+    "category": "image",
+    "description": "Basic 100 pix to Sound/Graphics stuff",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/BsHF8xevQ",
+    "image": ""
+  },
+  {
+    "name": "Neural Network Advanced",
+    "model": "NeuralNetwork",
+    "category": "image",
+    "description": "poseNet control graphics (chair)",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/0txn4mV9A",
+    "image": ""
+  },
+  {
+    "name": "Pitch Detection Basic",
+    "model": "PitchDetection",
+    "category": "sound",
+    "description": "Paint while you sing",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/XJKg1XLI",
+    "image": "word2vec-advanced.png"
+  },
+  {
+    "name": "Pitch Detection Advanced",
+    "model": "PitchDetection",
+    "category": "sound",
+    "description": "Nervours graphs",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/tRlMRb4x8",
+    "image": ""
+  },
+  {
+    "name": "PoseNet Basic",
+    "model": "PoseNet",
+    "category": "video",
+    "description": "Blair Witch Flashlight",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/LMneBrcD",
+    "image": ""
+  },
+  {
+    "name": "PoseNet Advanced",
+    "model": "PoseNet",
+    "category": "video",
+    "description": "Face closeness font",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/69CvXL1-C",
+    "image": "word2vec-advanced.png"
+  },
+  {
+    "name": "Teachable Machine Image Basic",
+    "model": "TeachableMachine",
+    "category": "image",
+    "description": "Art or Trash with template stickers",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/yiBBbzPTr",
+    "image": ""
+  },
+  {
+    "name": "Teachable Machine Image Advanced",
+    "model": "TeachableMachine",
+    "category": "image",
+    "description": "TM + Snake",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/a2pofB1eQ",
+    "image": ""
+  },
+  {
+    "name": "SoundClassification Basic",
+    "model": "SoundClassifier",
+    "category": "sound",
+    "description": "A game with pretrained model from SoundClassification",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/TV0_sCoaa",
+    "image": ""
+  },
+  {
+    "name": "SoundClassification Advanced",
+    "model": "SoundClassifier",
+    "category": "sound",
+    "description": "Control a system of little objects that can move, rotate, and control how many you want to display.",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/Xme4ymb13",
+    "image": ""
+  },
+  {
+    "name": "UNet Basic",
+    "model": "UNet",
+    "category": "video",
+    "description": "Lo-fi greenscreen with video background",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/6NAlS5SH",
+    "image": "word2vec-advanced.png"
+  },
+  {
+    "name": "BodyPix Advanced",
+    "model": "BodyPix",
+    "category": "video",
+    "description": "Use BodyPix output as texture in WebGL ",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/F--vDBcM",
+    "image": ""
+  },
+  {
+    "name": "Word2Vec Basic",
+    "model": "Word2Vec",
+    "category": "text",
+    "description": "Word2Vec suggestion tool",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/4dlayBySz",
+    "image": ""
+  },
+  {
+    "name": "Word2Vec Advanced",
+    "model": "Word2Vec",
+    "category": "text",
+    "description": "Shout a word and get close words to float around in space - cat with fish / dog with fishes",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/ylEz8k3V",
+    "image": "word2vec-advanced.png"
+  },
+  {
+    "name": "COCO-SSD Basic v1",
+    "model": "objectDetector",
+    "category": "image",
+    "description": "Only draw detected stuff",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/Q6Ys_Dn4a",
+    "image": ""
+  },
+  {
+    "name": "COCO-SSD Basic v2",
+    "model": "objectDetector",
+    "category": "image",
+    "description": "Detect animals in images, click them to play back sound!",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/oUBuEJHMO",
+    "image": "coco-ssd-advanced.png"
+  },
+  {
+    "name": "COCO-SSD Advanced",
+    "model": "objectDetector",
+    "category": "video",
+    "description": "Detect objects from the webcam video and replace objects with emojis",
+    "url": "https://editor.p5js.org/AndreasRef/sketches/RDjEGqJjl",
+    "image": "coco-ssd-advanced.png"
+  }
+]

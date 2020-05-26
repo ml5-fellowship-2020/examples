@@ -1,3 +1,15 @@
+# ml5 creative example website
+
+## How to add/update examples
+
+## How to publish a new version of the site
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
