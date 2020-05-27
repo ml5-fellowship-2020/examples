@@ -8,6 +8,12 @@ update the `/data/list.json` file
 ## How to publish a new version of the site
 `npm run deploy`
 
+## To run this
+`npm install`
+`npm run start`
+go to `http://localhost:3000/examples`
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
