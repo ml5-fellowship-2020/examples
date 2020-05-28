@@ -33,11 +33,11 @@ function App() {
       </Header>
       <Content className="App-content">
         <div className="Project-text">
-          <h1>ml5 examples</h1>
+          <h1>ml5 playful examples</h1>
           <p>
-            Project description Project description Project description Project
-            description <br /> Project descriptionProject descriptionProject
-            descriptionProject description
+            These examples were made to support the ml5js library, website, and community.
+            <br />The aim is to showcase the creative potential of using ml5js and attract even more people to use the library.
+            <br /> Made by <a href="https://andreasrefsgaard.dk/">Andreas Refsgaard</a> mentored by <a href="https://1023.io/">Yining Shi</a>
           </p>
         </div>
         {/* Cards Container */}

@@ -3,191 +3,191 @@
    "name": "Silly Face",
    "model": "FaceAPI",
    "category": "image",
-   "description": "Switch the eyes / other parts",
+   "description": "Analyze a single face, detect the landmarks, enlarge the mouth and switch the eyes",
    "url": "https://editor.p5js.org/AndreasRef/sketches/j5lMW-XS",
-   "image": "coco-ssd-advanced.png"
+   "image": "silly-face.png"
  },
  {
    "name": "Face Collage",
    "model": "FaceAPI",
    "category": "image",
-   "description": "Collage of eyes noses and faces as a blend",
+   "description": "The example analyzes images of faces, detects the eyes and the mouth and allows you to make silly collages",
    "url": "https://editor.p5js.org/AndreasRef/sketches/3dDj1e28Z",
-   "image": "coco-ssd-advanced.png"
+   "image": "face-collage.png"
  },
  {
    "name": "Classification to sounds",
    "model": "FeatureExtractor",
    "category": "sound",
-   "description": "2 classes with sound output",
+   "description": "Train a Neural Network to distinguish between class A and class B and play back sounds for each class",
    "url": "https://editor.p5js.org/AndreasRef/sketches/ryLlIOJpX",
-   "image": ""
+   "image": "classification-to-sounds.jpg"
  },
  {
    "name": "Trainable Camera",
    "model": "FeatureExtractor",
    "category": "video",
-   "description": "Trainable Camera",
+   "description": "Teach your webcam when to take a picture",
    "url": "https://editor.p5js.org/AndreasRef/sketches/BynhuHsqX",
-   "image": ""
+   "image": "trainable-camera.jpg"
  },
  {
    "name": "Playback Rate Camera",
    "model": "FeatureExtractor",
    "category": "sound",
-   "description": "Playback rate sound",
+   "description": "Teach the system when to play back a sound at full speed and when to play it a lower playback rates using regression",
    "url": "https://editor.p5js.org/AndreasRef/sketches/HyEDToYnQ",
-   "image": ""
+   "image": "playback-rate-camera.jpg"
  },
  {
    "name": "Mr Bean regression",
    "model": "FeatureExtractor",
    "category": "image",
-   "description": "Control animation (mr Bean)",
+   "description": "The example lets you train a regression model with our webcam and use it to control Mr Bean",
    "url": "https://editor.p5js.org/AndreasRef/sketches/4K_YGuMik",
-   "image": ""
+   "image": "mr-bean-regression.png"
  },
  {
    "name": "Classification to speech",
    "model": "ImageClassifier",
    "category": "sound",
-   "description": "Speak sketches out loud",
+   "description": "Classifies object from the webcam and use p5.speech to have the labels spoken out loud",
    "url": "https://editor.p5js.org/AndreasRef/sketches/Sk8M6mqh7",
-   "image": ""
+   "image": "classification-to-speech.jpg"
  },
  {
    "name": "What Rhymes With This?",
    "model": "ImageClassifier",
    "category": "text",
-   "description": "Random Rhymes with Rita.js",
+   "description": "Detect an object and use RiTA to find words that rhyme",
    "url": "https://editor.p5js.org/AndreasRef/sketches/Sanvu3ddC",
-   "image": ""
+   "image": "what-rhymes-with-this.png"
  },
  {
    "name": "Hand Tracking + KNN Classifier",
    "model": "KNNClassifier",
    "category": "video",
-   "description": "finger tracking + knn",
+   "description": "Train a KNN to detect your finger gestures",
    "url": "https://editor.p5js.org/AndreasRef/sketches/vyiGyVon9",
-   "image": ""
+   "image": "hand-tracking-knn-classifier.png"
  },
  {
    "name": "Don't Touch Your Face",
    "model": "KNNClassifier",
    "category": "video",
-   "description": "poseNet Touching face",
+   "description": "Combine poseNet and KNN and teach the system to detect when you are touching your face",
    "url": "https://editor.p5js.org/AndreasRef/sketches/iIDeY-mKi",
-   "image": ""
+   "image": "dont-touch-your-face.png"
  },
  {
    "name": "Multiple regression generative art",
    "model": "NeuralNetwork",
    "category": "image",
-   "description": "Basic 100 pix to Sound/Graphics stuff",
+   "description": "Train a relationship between a lo-res video feed and a generative artwork",
    "url": "https://editor.p5js.org/AndreasRef/sketches/BsHF8xevQ",
-   "image": ""
+   "image": "multiple-regression-generative-art.png"
  },
  {
    "name": "Pose2chair",
    "model": "NeuralNetwork",
    "category": "image",
-   "description": "poseNet control graphics (chair)",
+   "description": "Control a chair with your body",
    "url": "https://editor.p5js.org/AndreasRef/sketches/0txn4mV9A",
-   "image": ""
+   "image": "pose2chair.png"
  },
  {
    "name": "Pitch Detection Painting",
    "model": "PitchDetection",
    "category": "sound",
-   "description": "Paint while you sing",
+   "description": "Paint while you sing or play music",
    "url": "https://editor.p5js.org/AndreasRef/sketches/XJKg1XLI",
-   "image": ""
+   "image": "pitch-detection-painting.png"
  },
  {
    "name": "Pitch Detection Painting Advanced",
    "model": "PitchDetection",
    "category": "sound",
-   "description": "Pitch Painting Kaleidoscope",
-   "url": "https://editor.p5js.org/AndreasRef/sketches/tRlMRb4x8",
-   "image": ""
+   "description": "Advanced sound controlled painting with kaleidoscope effect",
+   "url": "https://editor.p5js.org/AndreasRef/sketches/9_Tf8f3d1",
+   "image": "pitch-detection-painting-advanced.png"
  },
  {
    "name": "Blair Witch Flashlight",
    "model": "PoseNet",
    "category": "video",
-   "description": "Blair Witch Flashlight",
+   "description": "Track your nose and make a spooky flashlight effect",
    "url": "https://editor.p5js.org/AndreasRef/sketches/LMneBrcD",
-   "image": ""
+   "image": "blair-witch-flashlight.png"
  },
  {
    "name": "PoseNet variable font",
    "model": "PoseNet",
    "category": "video",
-   "description": "Face closeness font",
+   "description": "A variable font that changes based on the distance between your eyes",
    "url": "https://editor.p5js.org/AndreasRef/sketches/69CvXL1-C",
-   "image": ""
+   "image": "posenet-variable-font.png"
  },
  {
    "name": "Art or Trash?",
    "model": "TeachableMachine",
    "category": "image",
-   "description": "Art or Trash with template stickers",
+   "description": "Upload an image and let the classifier decide if it is art or trash",
    "url": "https://editor.p5js.org/AndreasRef/sketches/yiBBbzPTr",
-   "image": ""
+   "image": "art-or-trash.png"
  },
  {
    "name": "Teachable Machine + Emojis",
    "model": "TeachableMachine",
    "category": "image",
-   "description": "TM + Emoji outputs",
+   "description": "Load a model trained with Teachable Machine and output emojis that fit the classification",
    "url": "https://editor.p5js.org/AndreasRef/sketches/KJ7aw7gp",
-   "image": ""
+   "image": "teachable-machine-emojis.png"
  },
  {
    "name": "Speech Controlled Snake Game",
    "model": "SoundClassifier",
    "category": "sound",
-   "description": "A game with pretrained model from SoundClassification",
+   "description": "Play the game of Snake with simple speech commands",
    "url": "https://editor.p5js.org/AndreasRef/sketches/TV0_sCoaa",
-   "image": ""
+   "image": "speech-controlled-snake-game.png"
  },
  {
    "name": "Speech Controlled Bugs",
    "model": "SoundClassifier",
    "category": "sound",
-   "description": "Control a system of little objects that can move, rotate, and control how many you want to display.",
+   "description": "Control a system of little objects with speech commands",
    "url": "https://editor.p5js.org/AndreasRef/sketches/Xme4ymb13",
-   "image": ""
+   "image": "speech-controlled-bugs.png"
  },
  {
    "name": "Virtual Background",
    "model": "UNet",
    "category": "video",
-   "description": "Lo-fi greenscreen with video background",
+   "description": "Segment a persons body and place a virtual background video behind it",
    "url": "https://editor.p5js.org/AndreasRef/sketches/6NAlS5SH",
-   "image": ""
+   "image": "virtual-background.png"
  },
  {
    "name": "Person Cube",
    "model": "BodyPix",
    "category": "video",
-   "description": "Use BodyPix output as texture in WebGL ",
+   "description": "Segment a persons body and use it as a texture on a 3D object",
    "url": "https://editor.p5js.org/AndreasRef/sketches/F--vDBcM",
-   "image": ""
+   "image": "person-cube.png"
  },
  {
    "name": "Word2Vec suggestion tool",
    "model": "Word2Vec",
    "category": "text",
-   "description": "Word2Vec suggestion tool",
+   "description": "Have Word2vec come up with alternatives as you type",
    "url": "https://editor.p5js.org/AndreasRef/sketches/4dlayBySz",
-   "image": ""
+   "image": "word2vec-suggestion-tool.png"
  },
  {
    "name": "Similar Words Floating in Space",
    "model": "Word2Vec",
    "category": "text",
-   "description": "Shout a word and get close words to float around in space - cat with fish / dog with fishes",
+   "description": "Shout a word and watch as similar words follow it",
    "url": "https://editor.p5js.org/AndreasRef/sketches/ylEz8k3V",
    "image": "word2vec-advanced.png"
  },
@@ -195,15 +195,15 @@
    "name": "Objects to Sound",
    "model": "objectDetector",
    "category": "image",
-   "description": "Detect animals in images, click them to play back sound!",
+   "description": "Detect animals in images and click them to play back sounds",
    "url": "https://editor.p5js.org/AndreasRef/sketches/oUBuEJHMO",
-   "image": ""
+   "image": "objects-to-sound.jpg"
  },
  {
    "name": "Emoji Objects",
    "model": "objectDetector",
    "category": "video",
-   "description": "Replace objects with emojis",
+   "description": "Detect objects with COCO-SSD and place emojis on top of them",
    "url": "https://editor.p5js.org/AndreasRef/sketches/RDjEGqJjl",
    "image": "coco-ssd-advanced.png"
  }
