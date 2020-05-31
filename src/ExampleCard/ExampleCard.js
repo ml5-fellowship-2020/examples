@@ -14,24 +14,69 @@ import { openLink } from "../util";
 
 const placeholder = require("../images/placeholder-image.png");
 
-const TAG_COLORS = {
-  FaceAPI: "magenta",
-  FeatureExtractor: "orange",
-  ImageClassifier: "green",
-  KNNClassifier: "gold",
-  NeuralNetwork: "cyan",
-  PitchDetection: "volcano",
-  PoseNet: "blue",
-  TeachableMachine: "geekblue",
-  SoundClassifier: "purple",
-  UNet: "red",
-  BodyPix: "success",
-  Word2Vec: "warning",
-  objectDetector: "processing",
+const TAGS = {
+  FaceAPI: {
+    color: "magenta",
+    link: "https://learn.ml5js.org/docs/#/reference/face-api",
+  },
+  FeatureExtractor: {
+    color: "orange",
+    link: "https://learn.ml5js.org/docs/#/reference/feature-extractor",
+  },
+  ImageClassifier: {
+    color: "green",
+    link: "https://learn.ml5js.org/docs/#/reference/image-classifier",
+  },
+  KNNClassifier: {
+    color: "gold",
+    link: "https://learn.ml5js.org/docs/#/reference/knn-classifier",
+  },
+  NeuralNetwork: {
+    color: "cyan",
+    link: "https://learn.ml5js.org/docs/#/reference/neural-network",
+  },
+  PitchDetection: {
+    color: "volcano",
+    link: "https://learn.ml5js.org/docs/#/reference/pitch-detection",
+  },
+  PoseNet: {
+    color: "blue",
+    link: "https://learn.ml5js.org/docs/#/reference/posenet",
+  },
+  TeachableMachine: {
+    color: "geekblue",
+    link: "https://teachablemachine.withgoogle.com/",
+  },
+  SoundClassifier: {
+    color: "purple",
+    link: "https://learn.ml5js.org/docs/#/reference/sound-classifier",
+  },
+  UNet: {
+    color: "red",
+    link: "https://learn.ml5js.org/docs/#/reference/unet",
+  },
+  BodyPix: {
+    color: "success",
+    link: "https://learn.ml5js.org/docs/#/reference/bodypix",
+  },
+  Word2Vec: {
+    color: "warning",
+    link: "https://learn.ml5js.org/docs/#/reference/word2vec",
+  },
+  objectDetector: {
+    color: "processing",
+    link:
+      "https://github.com/ml5js/ml5-library/tree/development/src/ObjectDetector",
+  },
+  Handpose: {
+    color: "error",
+    link: "https://github.com/ml5js/ml5-library/tree/development/src/Handpose",
+  },
 };
 
 const ExampleCard = ({ example }) => {
-  const { name, description, image, url, category, model } = example;
+  const { name, description, image, url, category, models } = example;
+  const modelTags = models.split(",");
   const { Meta } = Card;
   const getCategoryIcon = (catogery) => {
     switch (catogery) {
@@ -58,12 +103,17 @@ const ExampleCard = ({ example }) => {
         hoverable
         style={{ width: 360 }}
         cover={
-          <img
-            src={image.length > 0 ? require(`../images/${image}`) : placeholder}
-            alt={name}
-            width={360}
-            height={216}
-          />
+          <div style={{ overflow: "hidden" }}>
+            <img
+              src={
+                image.length > 0 ? require(`../images/${image}`) : placeholder
+              }
+              alt={name}
+              className="Card-image"
+              width={360}
+              height={216}
+            />
+          </div>
         }
         actions={[
           <Row justify="center" align="middle">
@@ -83,7 +133,22 @@ const ExampleCard = ({ example }) => {
           }
           description={<div className="Description">{description}</div>}
         />
-        <Tag color={TAG_COLORS[model]}>{model}</Tag>
+        {modelTags.map((tag) => {
+          const tagInfo = {
+            color: TAGS[tag] ? TAGS[tag].color : "default",
+            link: TAGS[tag] ? TAGS[tag].link : "https://ml5js.org/",
+          };
+          return (
+            <Tag
+              color={tagInfo.color}
+              onClick={() => openLink(tagInfo.link)}
+              key={tag}
+              className="Tag"
+            >
+              {tag}
+            </Tag>
+          );
+        })}
       </Card>
     </Col>
   );
