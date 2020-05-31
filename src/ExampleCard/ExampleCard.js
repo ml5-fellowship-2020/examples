@@ -10,7 +10,7 @@ import {
 } from "@ant-design/icons";
 
 import React from "react";
-import openLink from "../App";
+import { openLink } from "../util";
 
 const placeholder = require("../images/placeholder-image.png");
 
@@ -53,7 +53,6 @@ const ExampleCard = ({ example }) => {
       md={{ span: 12, offset: 2 }}
       lg={{ span: 8, offset: 2 }}
       xl={{ span: 6, offset: 1 }}
-      onClick={() => openLink(url)}
     >
       <Card
         hoverable
@@ -72,6 +71,9 @@ const ExampleCard = ({ example }) => {
             <PlaySquareOutlined key="play" className="Play-icon" />
           </Row>,
         ]}
+        onClick={() => {
+          openLink(url);
+        }}
       >
         <Meta
           title={

@@ -6,20 +6,10 @@ import ExampleCard from "./ExampleCard/ExampleCard";
 import React from "react";
 import examples from "./data/list.json";
 import logo from "./images/ml5_logo.png";
-
-export const openLink = (url) => {
-  const a = document.createElement("a");
-  a.href = url;
-  a.target = "_blank";
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  a.remove();
-};
+import { openLink } from "./util";
 
 function App() {
   const { Header, Content } = Layout;
-  console.log("examples: ", examples);
   return (
     <Layout>
       <Header className="App-header">
@@ -35,9 +25,27 @@ function App() {
         <div className="Project-text">
           <h1>ml5 playful examples</h1>
           <p>
-            These examples were made to support the ml5js library, website, and community.
-            <br />The aim is to showcase the creative potential of using ml5js and attract even more people to use the library.
-            <br /> Made by <a href="https://andreasrefsgaard.dk/">Andreas Refsgaard</a> mentored by <a href="https://1023.io/">Yining Shi</a>
+            These examples were made to support the ml5js library, website, and
+            community.
+            <br />
+            The aim is to showcase the creative potential of using ml5js and
+            attract even more people to use the library.
+            <br /> Made by{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://andreasrefsgaard.dk/"
+            >
+              Andreas Refsgaard
+            </a>{" "}
+            mentored by{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://1023.io/"
+            >
+              Yining Shi
+            </a>
           </p>
         </div>
         {/* Cards Container */}
