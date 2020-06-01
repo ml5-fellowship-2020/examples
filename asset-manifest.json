@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/examples/static/css/main.644c23a4.chunk.css",
-    "main.js": "/examples/static/js/main.5a153815.chunk.js",
-    "main.js.map": "/examples/static/js/main.5a153815.chunk.js.map",
-    "runtime-main.js": "/examples/static/js/runtime-main.e717520b.js",
-    "runtime-main.js.map": "/examples/static/js/runtime-main.e717520b.js.map",
+    "main.css": "/examples/static/css/main.dda56895.chunk.css",
+    "main.js": "/examples/static/js/main.68c986c1.chunk.js",
+    "main.js.map": "/examples/static/js/main.68c986c1.chunk.js.map",
+    "runtime-main.js": "/examples/static/js/runtime-main.ec9bd2e8.js",
+    "runtime-main.js.map": "/examples/static/js/runtime-main.ec9bd2e8.js.map",
     "static/css/2.63b65d4e.chunk.css": "/examples/static/css/2.63b65d4e.chunk.css",
-    "static/js/2.745b05f6.chunk.js": "/examples/static/js/2.745b05f6.chunk.js",
-    "static/js/2.745b05f6.chunk.js.map": "/examples/static/js/2.745b05f6.chunk.js.map",
+    "static/js/2.ca0ff251.chunk.js": "/examples/static/js/2.ca0ff251.chunk.js",
+    "static/js/2.ca0ff251.chunk.js.map": "/examples/static/js/2.ca0ff251.chunk.js.map",
     "index.html": "/examples/index.html",
-    "precache-manifest.d848a13c30f6d0ec7272323ec6ce47c4.js": "/examples/precache-manifest.d848a13c30f6d0ec7272323ec6ce47c4.js",
+    "precache-manifest.ff29dcc04489fa46a20d755f66f592fd.js": "/examples/precache-manifest.ff29dcc04489fa46a20d755f66f592fd.js",
     "service-worker.js": "/examples/service-worker.js",
     "static/css/2.63b65d4e.chunk.css.map": "/examples/static/css/2.63b65d4e.chunk.css.map",
-    "static/css/main.644c23a4.chunk.css.map": "/examples/static/css/main.644c23a4.chunk.css.map",
-    "static/js/2.745b05f6.chunk.js.LICENSE.txt": "/examples/static/js/2.745b05f6.chunk.js.LICENSE.txt",
+    "static/css/main.dda56895.chunk.css.map": "/examples/static/css/main.dda56895.chunk.css.map",
+    "static/js/2.ca0ff251.chunk.js.LICENSE.txt": "/examples/static/js/2.ca0ff251.chunk.js.LICENSE.txt",
     "static/media/art-or-trash.png": "/examples/static/media/art-or-trash.cec69c4d.png",
     "static/media/blair-witch-flashlight.png": "/examples/static/media/blair-witch-flashlight.0cfb360e.png",
     "static/media/classification-to-sounds.jpg": "/examples/static/media/classification-to-sounds.6846668b.jpg",
@@ -44,10 +44,10 @@
     "static/media/word2vec-suggestion-tool.png": "/examples/static/media/word2vec-suggestion-tool.9e37a9ab.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e717520b.js",
+    "static/js/runtime-main.ec9bd2e8.js",
     "static/css/2.63b65d4e.chunk.css",
-    "static/js/2.745b05f6.chunk.js",
-    "static/css/main.644c23a4.chunk.css",
-    "static/js/main.5a153815.chunk.js"
+    "static/js/2.ca0ff251.chunk.js",
+    "static/css/main.dda56895.chunk.css",
+    "static/js/main.68c986c1.chunk.js"
   ]
 }
