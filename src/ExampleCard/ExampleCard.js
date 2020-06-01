@@ -93,15 +93,10 @@ const ExampleCard = ({ example }) => {
     }
   };
   return (
-    <Col
-      xs={{ span: 24, offset: 1 }}
-      md={{ span: 12, offset: 2 }}
-      lg={{ span: 8, offset: 2 }}
-      xl={{ span: 6, offset: 1 }}
-    >
+    <Col xs={{ span: 24 }} md={{ span: 12 }} lg={{ span: 8 }} xl={{ span: 8 }}>
       <Card
         hoverable
-        style={{ width: 360 }}
+        style={{ width: "100%" }}
         cover={
           <div style={{ overflow: "hidden" }}>
             <img
@@ -110,13 +105,11 @@ const ExampleCard = ({ example }) => {
               }
               alt={name}
               className="Card-image"
-              width={360}
-              height={216}
             />
           </div>
         }
         actions={[
-          <Row justify="center" align="middle">
+          <Row justify="center" align="middle" className="Action-button">
             <div className="Action-text">Live Demo with Code</div>
             <PlaySquareOutlined key="play" className="Play-icon" />
           </Row>,
@@ -133,7 +126,7 @@ const ExampleCard = ({ example }) => {
           }
           description={<div className="Description">{description}</div>}
         />
-        {modelTags.map((tag) => {
+        {modelTags.map((tag, index) => {
           const tagInfo = {
             color: TAGS[tag] ? TAGS[tag].color : "default",
             link: TAGS[tag] ? TAGS[tag].link : "https://ml5js.org/",
@@ -142,8 +135,8 @@ const ExampleCard = ({ example }) => {
             <Tag
               color={tagInfo.color}
               onClick={() => openLink(tagInfo.link)}
-              key={tag}
-              className="Tag"
+              key={`${tag}-${index}`}
+              className="Model-tag"
             >
               {tag}
             </Tag>

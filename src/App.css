@@ -17,11 +17,27 @@
 .App-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: auto;
+  width: 80vw;
 }
 
 .Project-text {
-  margin: 20px;
+  padding: 20px;
+  margin: 20px 0;
+  background: white;
+  border-radius: 2px;
+}
+
+.Project-text a {
+  color: #a15ffb;
+}
+
+.Project-text h1 {
+  font-size: 32px;
+}
+
+.Project-text p {
+  font-size: 16px;
 }
 
 h1 {
@@ -30,5 +46,4 @@ h1 {
 
 .Examples-Container {
   display: flex;
-  justify-content: center;
 }

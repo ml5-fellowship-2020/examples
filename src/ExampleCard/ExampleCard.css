@@ -1,6 +1,12 @@
 @import "~antd/dist/antd.css";
 
-.Card-image:hover {
+.Card-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.ant-card-hoverable:hover .Card-image {
   transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
   transform: scale(1.02);
 }
@@ -22,10 +28,43 @@
   color: gray;
 }
 
-.Tag {
+.Model-tag {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-.Tag:hover {
+.Model-tag:hover {
+  transform: scale(1.1);
+}
+
+.ant-card-actions > li {
+  margin: 0;
+}
+
+.Action-button {
+  padding: 12px 0;
+}
+
+.Action-button > div {
+  /* font-weight: bold; */
+  transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  color: black;
+  transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  transform: scale(1);
+}
+
+.Action-button:hover > div {
+  color: #a15ffb;
+  transform: scale(1.05);
+}
+
+.Action-button > span {
+  transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  color: black;
+  transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  transform: scale(1);
+}
+
+.Action-button:hover > span {
+  color: #a15ffb;
   transform: scale(1.1);
 }

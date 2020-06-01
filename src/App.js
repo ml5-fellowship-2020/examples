@@ -23,7 +23,7 @@ function App() {
       </Header>
       <Content className="App-content">
         <div className="Project-text">
-          <h1>ml5 playful examples</h1>
+          <h1>ml5 Playful Examples</h1>
           <p>
             These examples were made to support the ml5js library, website, and
             community.
@@ -49,7 +49,7 @@ function App() {
           </p>
         </div>
         {/* Cards Container */}
-        <Row className="Examples-Container" gutter={[16, 16]}>
+        <Row className="Examples-Container" gutter={[20, 20]}>
           {examples.map((example, i) => (
             <ExampleCard key={`card-${i}`} example={example} />
           ))}
